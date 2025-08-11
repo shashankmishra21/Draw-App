@@ -13,7 +13,7 @@ app.post("/signup", (req, res) => {
             message: "Incorrect Inputs"
         })
     }
-    res.json({
+    res.json({ 
         userId: "123"
     })
 })
